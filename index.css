@@ -556,8 +556,10 @@
   text-decoration: none;
   color:rgb(136, 133, 133);
 }
-.contact-link .fa {
+.contact-link .fa, .contact-link .fas {
   color:rgb(136, 133, 133);
+  margin-right:5px;
+  padding-right:5px;
 }
 
 
@@ -729,9 +731,12 @@
 }
 .right-link {
   color:#f2f3f5;
+  padding-left:5px;
 }
 .right-link span .fa {
   border-right:1px dashed #f2f3f5;
+  margin-right:5px;
+  padding-right:5px;
 }
 .left-link {
   color:#f2f3f5;
@@ -831,10 +836,17 @@
   border:none;
 }
 
-.mail {
+.news-sub {
   position:absolute;
   right:10px;
-  top:2px;
+  top:8px;
+}
+
+.mail {
+  color:#000;
+  height:100%;
+  font-size:18px;
+  padding:5px;
 }
 
 @media screen and (max-width:660px) {
